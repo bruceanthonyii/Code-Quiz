@@ -8,4 +8,4 @@ Here is the link to the site that
 
 and screenshot
 
-[Code-Quiz-Screeenshot](/Screenshot-Code-Quiz.png)
+![image](/Screenshot-Code-Quiz.png)

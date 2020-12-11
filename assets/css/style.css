@@ -1,0 +1,97 @@
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.scores {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.timer {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+a {
+  color: indigo;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: mediumpurple;
+}
+
+button {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: indigo;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: mediumpurple;
+}
+
+.choices button {
+  display: block;
+  text-align: left;
+}
+
+input[type="text"] {
+  font-size: 20px;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: lavender;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 3px solid lavender;
+}
+
+.score-page {
+  width:500px;
+  margin: auto;
+  padding-top:50px;
+}
